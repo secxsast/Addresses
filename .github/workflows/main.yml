@@ -19,3 +19,5 @@ jobs:
          cx_client_id: ${{ secrets.CX_MARCE05 }}
          cx_client_secret: ${{ secrets.CX_MARCE05_SECRET }}
          branch: ${{ github.ref }}
+         additional_params: 
+          --threshold "sast-high=1;sca-high=1"
