@@ -1,4 +1,4 @@
-name: Mar
+name: Ma
 on:
   push:
    branches:
