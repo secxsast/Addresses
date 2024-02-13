@@ -1,4 +1,4 @@
-name: Ma
+name: AST
 on:
   push:
    branches:
